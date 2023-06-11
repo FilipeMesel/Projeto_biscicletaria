@@ -7,6 +7,10 @@ class Biscicleta:
         self.modelo = modelo
         self.ano = ano
         self.valor = valor
+    
+    #Destrutor
+    def __del__(self):
+        print("Destruindo o objeto")
 
     #Método bozinar
     def bozinar(self):
@@ -34,3 +38,5 @@ bike1.bozinar()
 bike1.correr()
 
 print(bike1)
+
+del bike1
