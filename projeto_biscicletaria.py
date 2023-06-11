@@ -33,5 +33,4 @@ bike1.parar()
 bike1.bozinar()
 bike1.correr()
 
-print(bike1.cor, bike1.modelo, bike1.ano, bike1.valor)
 print(bike1)
